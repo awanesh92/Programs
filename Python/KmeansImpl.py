@@ -30,7 +30,7 @@ def Kmeans(X, k):
     print(rest)
     plt.scatter(X[:, 0], X[:, 1])
     plt.scatter(centrd1[:,0],centrd1[:,1],c='red')
-    # plt.show()
+    plt.show()
 
 x, y = make_blobs(n_samples=50, centers=5, cluster_std=0.35, random_state=0)
 print(y)
