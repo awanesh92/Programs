@@ -5,6 +5,7 @@ def solution(A):
       s.remove(a)
       a+=1
     s.add(a)
+    print(s,a)
   s=sorted(s,reverse=True)
   return len(s)
 
